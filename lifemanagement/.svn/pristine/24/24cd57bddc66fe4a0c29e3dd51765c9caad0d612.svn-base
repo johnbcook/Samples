@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Account</title>
+
+<link type="text/css" rel="stylesheet" href="my.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<br>
+<br>
+<center><h2>Sign up for a free account</h2></center>
+<div id="account">
+<form action="createaccount.php" method="post">
+<table style="width: 367px; height: 191px;" class="VerboseForm">
+<tbody>
+<tr>
+<td class="Label">Username</td>
+<td class="Value"><input name="myusername" id="Username" class="IText" type="text"></td>
+</tr>
+<tr>
+<td class="Label">Email</td>
+<td class="Value"><input name="myemail" id="Email" class="IText" type="text"></td>
+</tr>
+<tr>
+<td class="Label">Password</td>
+<td class="Value"><input name="mypassword" id="Password1" type="password"></td>
+</tr>
+<tr>
+<td class="Label">Confirm Password</td>
+<td class="Value"><input name="mypassword2" id="Password2" type="password"></td>
+</tr>
+</tbody>
+</table>
+<input value="Sign Up" type="submit">
+</form>
+</div>
+</body></html>

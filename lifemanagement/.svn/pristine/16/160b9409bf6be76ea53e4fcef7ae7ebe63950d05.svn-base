@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <!--- Pull in the stylesheet -->
+        <link rel="stylesheet" href="example8.css" type="text/css" />
+    </head>
+<body>
+
+<h1>Example 8</h1>
+
+<p>
+    This is an example of a basic datagrid with a little CSS styling.
+</p>
+
+<!-- Show the datagrid -->
+<?php $grid->Display() ?>
+
+</body>
+</html>

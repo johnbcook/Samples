@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<LINK REL=StyleSheet HREF="my.css" TYPE="text/css" MEDIA=screen>
+
+
+	
+
+<title>Manage My Life</title>
+
+	
+</head><body>
+	<div id="container">
+		<div id="header">
+			<h1>Manage My Life</h1>
+			<p class="description">One stop shopping for managing the mundane tasks of your life.</p>
+		</div>
+		
+		<div id="sitenav">
+			<ul>
+				<li><a href="Index.html" id="home">Home</a></li>
+				<li><a href="checklogin.php" id ="tasks">Tasks</a></li>
+				<li><a href="checklogin.php" id="contacts">Contacts</a></li>
+				<li><a href="checklogin.php" id="projects">Projects</a></li>
+				<li><a href="checklogin.php" id="goals" >Goals</a></li>
+				<li><a href="checklogin.php" id="bills" >Bills</a></li>
+				<li><a href="checklogin.php" id="references">References</a></li>
+			</ul>
+		
+		
+		</div>
+		<div id="wrapper">
+			<div id="content">
+        <br/>
+			<h2>Getting Started</h2>
+			
+			 Welcome to Manage My Life, your one stop shopping for managing a variety of aspects of your life. 
+			
+			 
+			 To start using the site please register now.   Existing users can login.
+			 <br>
+			 <br>
+			 <br>
+			 
+			
+			<div id="wrapper1">
+			<div id="login">
+			 <form action="checklogin.php" class="login" method="post"><b>User
+				Name</b>&nbsp;<input name="myusername" ><br>
+				<br>
+				<b>Password</b>&nbsp;&nbsp;&nbsp;<input name="mypassword" type="password" ><br>
+				<br>
+				<button name="send" type="submit">Login</button>
+			 </form>
+			</div>
+			
+			<div id="signin">
+				
+			 <font size="-1"; float="left">New to Manage My Life? Create an account now.</font>
+			 <button name="send" margin="10px" type="submit" class="signup_btn" onclick="window.location='CreateAccount.html';">Create an Account</button>
+			
+			</div>
+		    </div>
+			
+			</div>
+			</div>
+
+  
+		<div id="navigation">
+      <br/>
+			<h2>Enter a New</h2>
+			<ul>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Goal</a></li>
+				<li><a href="">Project</a></li>
+				<li><a href="">Bill</a></li>
+				<li><a href="">Reference</a></li>
+				<li><a href="/Forms/NewTask.html">Task</a></li>
+			</ul>
+		</div>
+    <br/>
+		<div id="extra">
+			<h2>Extra Stuff</h2>
+			<p>Sometimes this would be called a <em>sidebar</em>, but it doesn't always have to be on the side to be called a <em>sidebar</em>. Sidebars can be on tops of things, below things, but they are usually beside things &ndash; hence it being a called a sidebar.</p>
+			<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small></p>
+			
+		</div>
+		<div id="footer">
+			<ul>
+				<li><a href="">Navigation 1</a></li>
+				<li><a href="">Navigation 2</a></li>
+				<li><a href="">Navigation 3</a></li>
+				<li><a href="">Navigation 4</a></li>
+				<li><a href="">Navigation 5</a></li>
+				<li><a href="">Navigation 6</a></li>
+			</ul>
+			<p>Footer stuff goes here. Copyright, disclaimers &ndash; stuff like that.</p>
+		</div>
+	</div>
+</body>
+</html>

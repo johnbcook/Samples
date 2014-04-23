@@ -1,0 +1,67 @@
+		html, body 		{ margin: 0; padding: 0; }
+		body 			{ color: #333; font: 12px Helvetica, Arial, sans-serif; line-height: 18px; }
+		h2				{ color: #333; }
+		a				{ color: #337810; }
+		p				{ margin: 0 0 18px; }
+		#wrapper		{ float: left; width: 100%; }
+		#wrapper1       { float: left; width: 80%; }
+		
+		.signup_btn {
+						cursor : pointer;
+						margin : 10px 0 -20px 0;
+						align  : center;
+						text-align : center;
+					}
+					
+		.form-noindent {
+						background-color : #ffffff;
+						border : 1px solid #c3d9ff;				
+						
+					  }
+	    #login    { float: left; border: 1px solid #c3d9ff; padding: 10px 18px 9px;  text-align: left; background: #E8EEFA; height: 135px; width: 200x; }	  
+		#signin     { float: right; top; border: 1px solid #c3d9ff; padding: 10px 18px 9px;  text-align: left; background: #E8EEFA; height: 135px; width: 120px; }	
+		#account    { float: left; border: 1px solid #c3d9ff; padding: 10px 18px 9px;  text-align: left; background: #E8EEFA; height: 220px; width: 200x; }
+				  
+					  .SPRITE_signup_button_grey_l {
+	background : url(https://mail.google.com/mail/help/images/greybtn.png) no-repeat 0% 0%;
+width : 14px;
+height : 45px;
+}
+.SPRITE_signup_button_grey_m {
+background : url(https://mail.google.com/mail/help/images/greybtn.png) no-repeat -14px 0%;
+height : 45px;
+}
+.SPRITE_signup_button_grey_r {
+background : url(https://mail.google.com/mail/help/images/greybtn.png) no-repeat -365px 0%;
+width : 15px;
+height : 45px;
+}
+		/* Header */
+		#header			{ background: #eee; border-bottom: 2px solid #ddd; }
+		#header h1  	{ color: #004b6f; margin: 0 0 3px; padding: 24px 18px 0; }
+		#header p		{ color: #666; font-size: 11px; font-weight: bold; padding: 0 18px; }
+		
+		/* Content Style */
+		#navigation		{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+		#navigation ul	{ padding: 0 18px 9px;}
+		#extra			{ border-bottom: 1px solid #ccc; padding-right: 18px; }
+		#extra small	{ font-size: 11px; line-height: 18px; }
+		#content p, #extra p { padding-right: 18px; }
+		
+		/* Content Positioning & Size */
+		#navigation		{ float: left; width: 170px; margin-left: -100%; }
+		#content		{ margin: 0 205px 36px; width: 610px;}
+		#content ul     { float: right; top; border: 1px solid #c3d9ff; padding: 10px 18px 9px;  text-align: left; background: #E8EEFA; height: 135px; width: 120px; }
+		#sitenav		{ background: #8080ff; 2px solid #999; clear: left; width: 100%; }
+		#sitenav a		{ color: #eee; }
+		#sitenav p		{ color: #ccc; margin: 0; padding: 0 18px 10px; }
+		#sitenav ul		{ border-bottom: 1px solid #555; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+		#sitenav li		{ display: inline; font-size: 13px; font-weight: bold; padding-right: 5px; }
+		#extra			{ float: left; margin-left: -185px; width: 160px; }		/* Footer */
+		#footer			{ background: #333; border-bottom: 2px solid #999; clear: left; width: 100%; }
+		#footer a		{ color: #eee; }
+		#footer	p		{ color: #ccc; margin: 0; padding: 0 18px 10px; }
+		#footer ul		{ border-bottom: 1px solid #555; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+		#footer li		{ display: inline; font-size: 11px; font-weight: bold; padding-right: 5px; }
+
+

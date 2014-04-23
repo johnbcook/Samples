@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="createtask.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="469"
+ height="494"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xFFFFFF"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required !"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://127.0.0.1/TaskManagement.html"
+></hidden>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<image
+ image="taskcreation.png"
+ x="-1"
+ y="-3"
+></image>
+
+<textinput
+ name="name"
+ x="88"
+ y="84"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="duedate"
+ x="340"
+ y="84"
+ w="92"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<combobox
+ name="type"
+ x="88"
+ y="116"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="146"
+ h="20">
+  <item name="Daily"></item>
+  <item name="Monthly"></item>
+  <item name="Weekly"></item>
+  <item name="Yearly"></item>
+  <item name="Project Specific"></item>
+  <item name="Other"></item>
+</combobox>
+
+<combobox
+ name="priority"
+ x="88"
+ y="144"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="100"
+ h="20">
+  <item name="High"></item>
+  <item name="Med"></item>
+  <item name="Low"></item>
+</combobox>
+
+<textarea
+ name="description"
+ x="88"
+ y="172"
+ w="176"
+ h="93"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="project"
+ x="88"
+ y="280"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<combobox
+ name="actionable"
+ x="88"
+ y="320"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="100"
+ h="20">
+  <item name="Y"></item>
+  <item name="N"></item>
+</combobox>
+
+<textarea
+ name="nextaction"
+ x="88"
+ y="348"
+ w="178"
+ h="50"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="time"
+ x="340"
+ y="116"
+ w="92"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+>
+</textinput>
+
+<submitbutton
+ name="Submit Button"
+ x="8"
+ y="436"
+ w="100"
+ h="20"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></submitbutton>
+
+<label
+ name="My Text 1"
+ x="8"
+ y="88"
+ w="74"
+ h="16"
+ text="Task Name:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="8"
+ y="120"
+ w="68"
+ h="16"
+ text="Task Type:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="8"
+ y="148"
+ w="49"
+ h="16"
+ text="Priority:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="8"
+ y="176"
+ w="73"
+ h="16"
+ text="Description:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="8"
+ y="284"
+ w="49"
+ h="16"
+ text="Project:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 6"
+ x="8"
+ y="324"
+ w="69"
+ h="16"
+ text="Actionable:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 7"
+ x="8"
+ y="352"
+ w="76"
+ h="16"
+ text="Next Action:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="272"
+ y="88"
+ w="62"
+ h="16"
+ text="Due Date:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="240"
+ y="120"
+ w="99"
+ h="16"
+ text="Estimated Time:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="268"
+ y="144"
+ w="46"
+ h="16"
+ text="Status:"
+  fontname="Arial"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<combobox
+ name="status"
+ x="340"
+ y="144"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="100"
+ h="20">
+  <item name="Not Started"></item>
+  <item name="In Progress"></item>
+  <item name="Blocked"></item>
+  <item name="Complete"></item>
+</combobox>
+
+</form>

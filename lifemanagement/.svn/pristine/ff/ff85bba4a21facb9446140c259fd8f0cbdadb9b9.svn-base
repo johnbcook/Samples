@@ -1,0 +1,102 @@
+<?php
+ session_start(); 
+ 
+$host="127.0.0.1"; // Host name 
+$username="root"; // Mysql username 
+$password="biteme"; // Mysql password 
+$db_name="lifemanagement"; // Database name 
+$tbl_name="members"; // Table name 
+
+// Connect to server and select databse.
+// with PW
+mysql_connect("$host", "$username", "$password")or die("cannot connect");
+// Without PW
+
+ 
+
+mysql_select_db("$db_name")or die("cannot select DB");
+
+// username and password sent from form 
+$myusername=$_POST['myusername'];
+$myemail=$_POST['myemail'];
+$mypassword=$_POST['mypassword'];
+$mypassword2=$_POST['mypassword2'];
+
+// echo "$mypassword<br />";
+
+
+if ($mypassword == $mypassword2)
+{
+
+
+ $verify="select * from members where username = '{$myusername}'";
+  
+ $result=mysql_query($verify);
+
+// Mysql_num_row is counting table row
+
+ $count=mysql_num_rows($result);
+
+
+
+    if($count==0)
+
+    {       
+          $checkmail="select * from $db_name.$tbl_name where email = '{$myemail}'";
+          $mail=mysql_query($checkmail);
+          $mailcount=mysql_num_rows($mail);
+                   
+          
+          
+       if($mailcount==0) 
+       {  
+          $sql="INSERT INTO $db_name.$tbl_name VALUES (NULL, '{$myusername}', '{$mypassword}', '{$myemail}')";
+
+          mysql_query($sql);
+
+          echo "Account Created";
+          // Register $myusername, $mypassword and redirect to file "login_success.php"
+  
+           
+           $_SESSION['myusername'] = $myusername; // store session data
+       //    echo $_SESSION['myusername']; //retrieve data
+                
+       // header("location: ./Home.html");
+       
+  echo "<script>parent.document.location.href='Home.html'</script>";
+      
+ // echo "<script language="Javascript" type="text/javascript">"
+// echo "document.location.href='Home.html'"
+  //echo "</script>"
+       
+       }
+       else 
+       {
+       	echo "Email Exists"; 
+       }
+    }
+     else 
+     {
+          echo "User Name Exists";
+          
+     }  
+}      
+else
+
+   echo "Passwords do not match";
+ 
+  
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+You can use javascript to access the parent. You could echo out javascript in your PHP.. so your parent page has this:
+
+function changeURL( url ) { 
+    document.location = url; 
+} 
+and in your php script, you echo 
+
+<script> 
+   parent.changeURL('mypage2.html' ); 
+</script> 
+The reason you can't call parent.document.location is because it's read only - you have to have a function available on the parent to do it. 

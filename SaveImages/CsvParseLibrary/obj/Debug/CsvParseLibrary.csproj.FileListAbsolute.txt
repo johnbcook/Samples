@@ -1,0 +1,8 @@
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvParseLibrary.dll
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvParseLibrary.pdb
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.dll
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.pdb
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.xml
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.csprojResolveAssemblyReference.cache
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.dll
+G:\C#Projects\Projects\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.pdb

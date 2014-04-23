@@ -1,0 +1,53 @@
+body,
+table {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #ddd;
+}
+
+td.col_4 {
+    border: 0;
+}
+
+td.col_0 {
+    border-left: 1px solid #ddd;
+}
+
+td.col_4 {
+    border: 0;
+}
+
+.datagrid tfoot td {
+    border-left: 0;
+    border-right: 0;
+}
+
+td.col_1,
+td.col_3 {
+    background-color: #eee;
+}
+
+th {
+    text-align: left;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.datagrid thead th {
+    background-color: #000;
+    color: #fff;
+    border-left: 1px solid #ccc;
+    height: 30px;
+}
+
+.datagrid tfoot td.paging {
+    border-top: 1px solid #ddd;
+}

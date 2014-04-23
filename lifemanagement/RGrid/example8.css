@@ -1,0 +1,37 @@
+body,
+table {
+    font-family: Verdana;
+    font-size: 10pt;
+    border-collapse: collapse;
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+th,
+td.col_0,
+td.col_1,
+td.col_2,
+td.col_3 {
+    padding-left: 5px;
+    text-align: left;
+    border: 1px solid #aaa;
+}
+
+th {
+    background-color: #eee;
+}
+
+td.col_4 {
+    padding-left: 5px;
+}
+
+.mouseover {
+    background-color: yellow;
+}
+
+.col_4 {
+    background-color: white;
+}
