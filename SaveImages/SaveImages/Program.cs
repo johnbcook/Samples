@@ -23,20 +23,34 @@ namespace SaveImages
        static public string NewNutPath { get { return System.Configuration.ConfigurationManager.AppSettings["NewNutPath"]; } }
         static void Main(string[] args)
         {
+            Console.WriteLine("Would you like to process images? Enter Y or N. ");
 
-           // try
-           // {
-                WebClientUtility WCU = new WebClientUtility();
-                CsvLibrary cl = new CsvLibrary();
-                XmlUtil xu = new XmlUtil();
-                NutritionLabel nl = new NutritionLabel();
+            string x = Console.ReadLine();
+
+            Console.WriteLine("Would you like to process nutrition labels?  Enter Y or N. ");
+
+            string y = Console.ReadLine();
+
+
+            WebClientUtility WCU = new WebClientUtility();
+            CsvLibrary cl = new CsvLibrary();
+            XmlUtil xu = new XmlUtil();
+            NutritionLabel nl = new NutritionLabel();
+           
+            try
+            {
+
+#region CSV Parse
+                if(x.Equals("Y")|| x.Equals("y"))
+                {
+                
 
                 XDocument testx =  XDocument.Load(@"D:\TestData\samplexml.xml");
 
             
 
-                //Console.WriteLine("Target CSV File: " + FullFilePath);
-                //Console.WriteLine("Target Image Directory: " + NewFilePath);
+                Console.WriteLine("Target CSV File: " + FullFilePath);
+                Console.WriteLine("Target Image Directory: " + NewFilePath);
 
                 //WCU.ReadAndParseCSV(FullFilePath, NewFilePath);
                 //WCU.SaveURLImages();
@@ -46,7 +60,11 @@ namespace SaveImages
                 //cl.ReadCsv(NutrientPath);
                // cl.WriteCsv(NutrientPath, NewNutPath);
 
+                }
+#endregion
 
+                if(y.Equals("Y")|| (y.Equals("y")))
+                {
                 XmlDocument test = new XmlDocument();
 
                 test.Load(@"D:\TestData\samplexml.xml");
@@ -90,12 +108,13 @@ namespace SaveImages
                 nl.GenerateNutritionCsv(nl.GenerateNutrientList(products), @"D:\TestData\nutrientupload.csv");
 
                 Console.Read();
-          //  } catch(Exception ex)
-          //  {
-            //    Console.WriteLine("An error has occurred.  Contact developer with the exception: " + ex.Message);
-            //    Console.Read();
+                }
+            } catch(Exception ex)
+            {
+                Console.WriteLine("An error has occurred.  Contact developer with the exception: " + ex.Message);
+                Console.Read();
 
-          //  }
+            }
 
         }
     }
