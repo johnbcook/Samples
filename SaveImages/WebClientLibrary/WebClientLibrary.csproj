@@ -46,12 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SkippedRecord.cs" />
     <Compile Include="Utlities\FileUtil.cs" />
     <Compile Include="WebClientUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CsvParseLibrary\CsvParseLibrary.csproj">
+      <Project>{aa9fed4c-7e34-4c25-9d8c-e1b78459a047}</Project>
+      <Name>CsvParseLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

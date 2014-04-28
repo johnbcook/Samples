@@ -21,15 +21,17 @@ namespace SaveImages
        static public string NewFilePath { get { return System.Configuration.ConfigurationManager.AppSettings["NewFilePath"]; } }
        static public string NutrientPath { get { return System.Configuration.ConfigurationManager.AppSettings["NutrientPath"]; } }
        static public string NewNutPath { get { return System.Configuration.ConfigurationManager.AppSettings["NewNutPath"]; } }
+       static public string ProductImagePath { get { return System.Configuration.ConfigurationManager.AppSettings["ProductImagePath"]; } }
+       static public string SkippedRecPath { get { return System.Configuration.ConfigurationManager.AppSettings["SkippedRecPath"]; } }
         static void Main(string[] args)
         {
             Console.WriteLine("Would you like to process images? Enter Y or N. ");
 
             string x = Console.ReadLine();
 
-            Console.WriteLine("Would you like to process nutrition labels?  Enter Y or N. ");
+            //Console.WriteLine("Would you like to process nutrition labels?  Enter Y or N. ");
 
-            string y = Console.ReadLine();
+            //string y = Console.ReadLine();
 
 
             WebClientUtility WCU = new WebClientUtility();
@@ -46,35 +48,38 @@ namespace SaveImages
                 
 
                 XDocument testx =  XDocument.Load(@"D:\TestData\samplexml.xml");
-
-            
+                NutritionInfo ni = new NutritionInfo();
 
                 Console.WriteLine("Target CSV File: " + FullFilePath);
                 Console.WriteLine("Target Image Directory: " + NewFilePath);
 
-                //WCU.ReadAndParseCSV(FullFilePath, NewFilePath);
-                //WCU.SaveURLImages();
+                WCU.GenerateImageFiles(FullFilePath, NewFilePath);
+                WCU.SaveURLImages();
 
-                //Console.WriteLine("Images Processed, press Enter to continue.");
-               // Console.WriteLine("This is Nut Path: " + NutrientPath);
-                //cl.ReadCsv(NutrientPath);
-               // cl.WriteCsv(NutrientPath, NewNutPath);
+               // Console.WriteLine("Product Count: " + WCU.productimages.Count());
+                CsvLibrary.WriteCsv(WCU.productimages, ProductImagePath);
+                
+                Console.WriteLine("Images Processed, press Enter to continue.");
+                
 
                 }
 #endregion
 
-                if(y.Equals("Y")|| (y.Equals("y")))
-                {
-                XmlDocument test = new XmlDocument();
+                //if(y.Equals("Y")|| (y.Equals("y")))
+                //{
+                //XmlDocument test = new XmlDocument();
 
-                test.Load(@"D:\TestData\samplexml.xml");
+                //Console.WriteLine("This is Nut Path: " + NutrientPath);
+                //cl.ReadCsv(NutrientPath);
+                //cl.WriteNutritionCsv(NutrientPath, NewNutPath);
+                //test.Load(@"D:\TestData\samplexml.xml");
                                  
                 //Console.WriteLine(xu.GetNodeCount(test, "//product"));
 
-                XmlNodeList products = XmlUtil.GetNodeList(test, "//product");
+             //   XmlNodeList products = XmlUtil.GetNodeList(test, "//product");
 
             //@"D:\TestData\uploads.csv"
-                List<NutrientUpload> uber = nl.GenerateNutrientList(products);
+             //   List<NutrientUpload> uber = nl.GenerateNutrientList(products);
 
                
                 //foreach (XmlNode x in products)
@@ -105,15 +110,20 @@ namespace SaveImages
                 //    Console.WriteLine(x.StockCode + " " + x.HTML);
                 //}
 
-                nl.GenerateNutritionCsv(nl.GenerateNutrientList(products), @"D:\TestData\nutrientupload.csv");
+                //nl.GenerateNutritionCsv(nl.GenerateNutrientList(products), @"D:\TestData\nutrientupload.csv");
 
-                Console.Read();
-                }
+                //Console.Read();
+                //}
             } catch(Exception ex)
             {
                 Console.WriteLine("An error has occurred.  Contact developer with the exception: " + ex.Message);
+                Console.WriteLine(ex.StackTrace);
                 Console.Read();
 
+            }
+            finally
+            {
+                CsvLibrary.WriteCsv(WCU.skippedrecords, SkippedRecPath);
             }
 
         }

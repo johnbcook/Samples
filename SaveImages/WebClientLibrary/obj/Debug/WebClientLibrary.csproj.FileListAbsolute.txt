@@ -11,7 +11,9 @@ F:\C#Projects\Projects\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.pd
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\WebClientLibrary.dll
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\WebClientLibrary.pdb
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.dll
+G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\CsvParseLibrary.dll
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\LumenWorks.Framework.IO.dll
+G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\CsvParseLibrary.pdb
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.pdb
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.xml
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\LumenWorks.Framework.IO.pdb
