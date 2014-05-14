@@ -26,3 +26,15 @@ G:\C#Projects\Projects\SaveImages\SaveImages\obj\Debug\SaveImages.pdb
 C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\SaveImages.exe.config
 C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\obj\Debug\SaveImages.exe
 C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\obj\Debug\SaveImages.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\SaveImages.exe
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\SaveImages.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\CsvHelper.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\CsvParseLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\WebClientLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\CsvParseLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\WebClientLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\CsvHelper.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\CsvHelper.xml
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\LumenWorks.Framework.IO.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\obj\Debug\SaveImages.csprojResolveAssemblyReference.cache

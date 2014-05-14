@@ -5,3 +5,11 @@ G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.pdb
 G:\C#Projects\Projects\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.xml
 G:\C#Projects\Projects\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.dll
 G:\C#Projects\Projects\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\bin\Debug\CsvParseLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\bin\Debug\CsvParseLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\bin\Debug\CsvHelper.xml
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\CsvParseLibrary\obj\Debug\CsvParseLibrary.pdb

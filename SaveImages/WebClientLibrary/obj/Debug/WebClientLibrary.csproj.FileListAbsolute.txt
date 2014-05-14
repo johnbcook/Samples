@@ -20,3 +20,15 @@ G:\C#Projects\Projects\SaveImages\WebClientLibrary\bin\Debug\LumenWorks.Framewor
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.csprojResolveAssemblyReference.cache
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.dll
 G:\C#Projects\Projects\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\WebClientLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\WebClientLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\CsvParseLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\CsvParseLibrary.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\CsvHelper.xml
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\bin\Debug\LumenWorks.Framework.IO.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.dll
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\WebClientLibrary\obj\Debug\WebClientLibrary.pdb

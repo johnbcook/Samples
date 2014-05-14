@@ -17,6 +17,7 @@ namespace SaveImages
     class Program
     {
        // Set file directory and target image directory
+        //testing 101 ya
        static public string FullFilePath { get { return System.Configuration.ConfigurationManager.AppSettings["FullFilePath"]; } }
        static public string NewFilePath { get { return System.Configuration.ConfigurationManager.AppSettings["NewFilePath"]; } }
        static public string NutrientPath { get { return System.Configuration.ConfigurationManager.AppSettings["NutrientPath"]; } }
