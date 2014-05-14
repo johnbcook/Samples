@@ -23,3 +23,6 @@ G:\C#Projects\Projects\SaveImages\SaveImages\bin\Debug\LumenWorks.Framework.IO.p
 G:\C#Projects\Projects\SaveImages\SaveImages\obj\Debug\SaveImages.csprojResolveAssemblyReference.cache
 G:\C#Projects\Projects\SaveImages\SaveImages\obj\Debug\SaveImages.exe
 G:\C#Projects\Projects\SaveImages\SaveImages\obj\Debug\SaveImages.pdb
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\bin\Debug\SaveImages.exe.config
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\obj\Debug\SaveImages.exe
+C:\Users\Jack Straw\Documents\GitHub\Samples\SaveImages\SaveImages\obj\Debug\SaveImages.pdb
